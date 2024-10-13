@@ -171,7 +171,7 @@ class HomePage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
-        tk.Label(self, text="Welcome to the Flight Booking System", font=("Helvetica", 16)).pack(pady=20)
+        tk.Label(self, text="Welcome to the Anuj ka Flight Booking System", font=("Helvetica", 16)).pack(pady=20)
 
         tk.Button(self, text="Manage Flights", command=lambda: controller.show_page("FlightPage")).pack(pady=10)
         tk.Button(self, text="Manage Users", command=lambda: controller.show_page("UserPage")).pack(pady=10)
